@@ -1,10 +1,11 @@
 from main_menu import main_menu
+from dollars_to_pesos import dollars_to_pesos
 
 def algo():
     menu = main_menu()
     try:
         if menu == 1:
-            return 'run function dollars to pesos'
+            return dollars_to_pesos()
         elif menu == 2:
             return 'run function pesos to dollars'
         else:
