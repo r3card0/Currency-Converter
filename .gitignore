@@ -2,3 +2,4 @@
 conversor_usd.py
 conversor.py
 Doc/
+__pycache__/
