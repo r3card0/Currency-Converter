@@ -3,7 +3,7 @@ def dollars_to_pesos():
         dollars = float(input('Enter dollars amount: '))
         # dollars * pesos = new_pesos_amount
         pesos = float(20.15)
-        output = dollars * pesos
+        output = round(dollars * pesos,2)
         return output 
     
     except ValueError:
